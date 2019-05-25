@@ -1,44 +1,155 @@
-#head { padding: 20px; color: white; font-size: 18px; }
-#head img { float:left; }
+<!DOCTYPE html>
 
-#left { float: left; width: 20%; margin-top: 10px;}
+<html lang="en">
 
-#right { float:left; width: 79%; margin-top: 10px;margind-left: 15px;}
+<head>
 
-#footer { boder: 3px black solid; background-color: #0000e6;  padding: 10px; text-align: center; height: 100px; color: white;}
+  <meta charset = "UTF-8">
 
-body {font-family: verdana, sans-serif; background-color: #ececf9; padding: 15px; margin: 0px 50px 50px 25px;font-size:11;}
+  <title>Navigation</title>
+
+  <link rel="stylesheet" type = "text/css" href="test.css"/>
+  <link rel="stylesheet" type = "text/css" href="card.css"/>
+
+</head>
+
+<body>
+	
+   <div id="menu">
+    <ul>   
+      <li><a href="https://www.cdu.edu.au/contact-cdu">Contact Us</a></li>
+      <li><a href="https://www.cdu.edu.au/about">About CDU</a></li>
+      <li><a href="https://www.cdu.edu.au/current-students">Current Students</a></li>
+      <li><a href="https://learnline.cdu.edu.au/studyskills/studyskills/inclusivelanguage.html">Study Skills</a></li>
+      <li><a href="https://www.cdu.edu.au/library/">Library</a></li>
+      <li><a href="https://www.cdu.edu.au/">CDU Home</a></li>
+    </ul>
+  </div>
+
+  <br>
+
+  <div id="head">
+    <img src="cdu-masterlogo.png" alt="CDU Logo">
+    <h1>Academic Writing</h1>
+  </div>
+
+  <div id="left">
+    <div id="menu_left">
+      <ul>
+        <li><a href="#">Inclusive Language</a></li>
+        <li><a href="#">Common Problems</a></li>
+        <li><a href="#">Writing formally</a></li>
+        <li><a href="#">What to avoid</a></li>
+        <li><a href="#">Punctuation</a></li>
+        <li><a href="#">Quotes, paraphrasing and summaries</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="right">
+    <section class="cards">            
+      <article class="card">
+      	<h5>Inclusive language</h5><br>
+	      <img src="Inclusive_Language.jpg" alt="inclusive language" style="width:80%; ">
+      	<p>Inclusive language is language that does not belittle, exclude, stereotype or trivialise people on the basis of their race, gender or disability.</p>
+      	<ul class="a">
+  	      <li>Language and Culture</li>
+	        <li>Language and background</li>
+	        <li>Language and Sexuality</li>
+	        <li>Language and Gender</li>
+ 	       <li>Language and Disability</li>
+	      </ul>
+       <div id = "button_center">
+         <button class="button" onclick="window.location.href = 'http://learnline.cdu.edu.au/studyskills/studyskills/inclusivelanguage.html';">More Information</button>
+	      </div>
+      </article>
  
+      <article class="card">
+       	<h5>Common problems in language construction</h5>
+	       <img src="under-construction.jpg" alt="language construction" style="width:80%;">
+	       <p>In this section, common problems relating to language construction have been identified so that students can become aware of these and avoid them in their writing.</p>
+	       <ul class="a">
+	         <li>Sentence Structure</li>
+	         <li>Parallel Structure</li>
+	         <li>Use and non-use of articles</li>
+      	 </ul>
+        <div id = "button_center">
+          <button class="button" onclick="window.location.href = 'http://learnline.cdu.edu.au/studyskills/studyskills/languageconstruction.html';">More Information</button>
+        </div>
+      </article>
+ 
+      <article class="card">
+       	<h5>Making your writing sound formal</h5>
+	       <img src="fountain-pen.jpg" alt="fountain pen" style="width:80%;">
+	       <p>It is usually the case that in formal writing you avoid the use of personal pronouns.  However there are instances in certain disciplines where your lecturer will invite you to use the first person. </p>
+	       <ul class="a">
+	         <li>Where to avoid using personal pronouns</li>
+	         <li>Making judgements: evaluations and opinions</li>
+	       </ul>
+	       <br>
+        <div id = "button_center">
+	         <button class="button" onclick="window.location.href = 'http://learnline.cdu.edu.au/studyskills/studyskills/soundformal.html';">More Information</button>
+	       </div>
+      </article>
+ 
+      <article class="card">
+       	<h5>What to avoid in formal writing</h5>
+	       <img src="Formal-Writing.png" alt="academic writing" style="width:80%;">
+	       <p>The language that you use needs to be precise and uncluttered by unnecessary devices which have the potential to distract the reader, shift the meaning or detract from the clarity of the argument.</p>
+	       <ul class="a">
+	         <li>Clichés</li>
+	         <li>Metaphors</li>
+	         <li>Similes</li>
+	         <li>Figures of speech</li>
+	         <li>Colloquialisms and slang</li>
+	         <li>Padding</li>
+	         <li>Pomposity and pretentiousness</li>
+	         <li>Texting language</li>
+	       </ul>
+	       <br><br>
+        <div id = "button_center">
+          <button class="button" onclick="window.location.href = 'http://learnline.cdu.edu.au/studyskills/studyskills/aswhattoavoid.html';">More Information</button>
+	       </div>
+      </article>
 
-h1 { font-size: 175%; font-weight: normal; margin-bottom: 5px; color:#262626; font-weight: bold; font-family: Georgia, serif; text-align: center; }
+      <article class="card">
+       	<h5>Punctuation</h5>
+	       <img src="punctuation.jpg" alt="punctuation marks" style="width:80%;">
+	       <p>Punctuation marks help you tell the reader how to find the meaning from your organisation of the words.They are the signs that alert readers to the appropriate pauses in your text, signalling where you intend the emphasis and intonation to be placed, and how the text to be read.</p>
+	       <ul class="a">
+	         <li>End marks</li>
+	         <li>Commas</li>
+	         <li>Colons</li>
+	         <li>Semicolons</li>
+	         <li>Apostrophes</li>
+	         <li>Quotation marks</li>
+	         <li>Parentheses</li>
+	         <li>Dashes</li>
+	         <li>Hyphens</li>
+	         <li>Ellipsis</li>
+	       </ul>
+        <div id = "button_center">
+  	       <button class="button" onclick="window.location.href = 'http://learnline.cdu.edu.au/studyskills/studyskills/punctuation.html';">More Information</button>
+	      </div>
+      </article>
 
+      <article class="card">
+       	<h5>Quoting, paraphrasing and summarising</h5>
+	       <img src="books.jpg" alt="books on a shelf" style="width:80%; height:80px">
+	       <p>Any writing you do at university will require reference to recognised experts or authorities in that particular subject area (discipline), to give the thoughts, ideas and information in your assignment credibility.</p>
+	       <ul class="a">
+	         <li>Acknokledging sources in text</li>
+	         <li>Quoting</li>
+	         <li>Paraphrasing</li>
+	         <li>Summarising</li>
+	       </ul>
+	       <br><br><br><br>
+        <div id = "button_center">
+  	       <button class="button" onclick="window.location.href = 'http://learnline.cdu.edu.au/studyskills/studyskills/quoting.html';">More Information</button>
+	       </div>
+      </article>
+    </section>
+  </div>
 
-#menu ul{ margin-left: -2.5em;}
-
-#menu li{list-style-type: none; background-color:#0000e6; width:9em; float: right; text-align:center; color: white;}
-
-#menu a { text-decoration: none; color: white; display: block; margin-left: 2px;}
-
-#menu a:hover { color:  #000099; text-decoration: none; background-color: white; font-weight: bold; box-shadow: 3px 3px 3px 3px purple;}
-
-
-
-#menu_left ul{ margin-left: -2.5em;}
-
-#menu_left li{list-style-type: none; background-color:#0000e6; width: 15em; text-align:center; color: white; padding: 10px 10px 10px 10px;}
-
-#menu_left a { text-decoration: none; color: white; display: block; margin-left: 2px; padding: 10px 10px 10px 10px;}
-
-#menu_left a:hover { color:  #000099; text-decoration: none; background-color: white; font-weight: bold; box-shadow: 3px 3px 3px 3px purple;}
-
-
-#button_center {text-align: center;}
-#button_center .button { float: centerleft; padding: 5px 10px; font-size: 14px; cursor: pointer; text-align: center; margin-top: 10px;
-          outline: none; color: #262626; background-color: #FFC300; border: 2px solid #FF8D33; border-radius: 4px; box-shadow: 0 5px #999;}
-#button_center .button:hover {background-color: #FF8D33; color:#0000ff; border: 2px solid #FFC300;}
-#button_center .button:active { background-color: #8383af; color:#cccccc; box-shadow: 0 5px #666; transform: translateY(4px);}
-
-
-p {font-size:11.5px;}
-
-ul.a {list-style-type: square;font-size:11.5px; font-family: verdana, sans-serif;}
+</body>
+</html>
