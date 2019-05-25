@@ -13,7 +13,7 @@ body {font-family: verdana, sans-serif; background-color: #ececf9; padding: 15px
 h1 { font-size: 175%; font-weight: normal; margin-bottom: 5px; color:#262626; font-weight: bold; font-family: Georgia, serif; text-align: center; }
 
 
-#menu ul{ margin-left: -2.5em;}
+#menu ul{ margin-left: 2.5em;}
 
 #menu li{list-style-type: none; background-color:#0000e6; width:9em; float: right; text-align:center; color: white;}
 
@@ -23,7 +23,7 @@ h1 { font-size: 175%; font-weight: normal; margin-bottom: 5px; color:#262626; fo
 
 
 
-#menu_left ul{ margin-left: -2.5em;}
+#menu_left ul{ margin-left: 2.5em;}
 
 #menu_left li{list-style-type: none; background-color:#0000e6; width: 15em; text-align:center; color: white; padding: 10px 10px 10px 10px;}
 
